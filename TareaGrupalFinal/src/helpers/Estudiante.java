@@ -3,12 +3,12 @@ package helpers;
 
 
 public class Estudiante extends Persona {
-    
+    //atributos estudiante
     private String carrera;
     private String clase;
   
     
-    
+    // metodos estudiante,heredados de calse Persona
     public Estudiante(String carrera, String clase){
         
         
@@ -21,7 +21,7 @@ public class Estudiante extends Persona {
         
        
         
-   
+   //metodo mostrar Datos
     }
     public void mostrarEstudiante(){
         
@@ -29,10 +29,10 @@ public class Estudiante extends Persona {
         System.out.println("Clase: "+clase);
         
     }
-
+// metodo abstracto
     @Override
     public String obtenerInformacionPersona() {
-        return "Informacion para Estdiante";
+        return "--------Informacion para Estudiante----------";
     }
     
             

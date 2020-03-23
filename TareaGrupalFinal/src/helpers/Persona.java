@@ -41,7 +41,7 @@ public abstract class Persona {
         System.out.println("Apellido: "+apellido);
        
     }
-    
+    //metodo abstracto
     abstract String obtenerInformacionPersona();
         
         
